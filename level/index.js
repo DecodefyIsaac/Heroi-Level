@@ -1,7 +1,8 @@
 let nomeHeroi = "Artorias"
 let levelHeroi = ["Ferro", "Bronze", "Prata", "Ouro", "Platina", "Ascendente", "Imortal", "Radiante", ]
 
-for(xpDoHeroi = 1000; xpDoHeroi < 2000; xpDoHeroi+= 500){
+//a mudança que irá afetar em como a condição do código ocorrerá, é alterando o valor inicial do xpDoHeroi, e o valor final do mesmo
+for(xpDoHeroi = 1001; xpDoHeroi < 2000; xpDoHeroi+= 500){
     console.log(nomeHeroi + " derrotou o Dragão e ganhou " + xpDoHeroi + " de experiência")
 
    if(xpDoHeroi > 1 && xpDoHeroi < 1000)
